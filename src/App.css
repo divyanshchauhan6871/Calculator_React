@@ -1,0 +1,74 @@
+* {
+  overflow-x: hidden;
+  /* box-sizing: border-box; */
+}
+.h100 {
+  min-height: 100vh;
+}
+.h80 {
+  min-height: 80vh;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.color1 {
+  background-color: #22333b;
+}
+.color2 {
+  background-color: #051923;
+}
+.color3 {
+  background-color: rgb(210, 209, 209);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.buttoncontainerstyling {
+}
+
+.buttonstyling {
+  display: block;
+  background-color: #051923;
+  color: white;
+  border: #051923 solid 5px;
+  padding: 0.5rem;
+}
+.buttonstyling:hover {
+  transition: all;
+  transition-duration: 0.2s;
+  background: none;
+  color: black;
+  transform: rotateY(18deg) rotateX(18deg);
+}
+.sizes {
+  font-size: 40px;
+}
+
+.sizes1 {
+  font-size: 40px;
+
+  @media (min-width: 1200px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 1220px) {
+    font-size: 40px;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 34px;
+  }
+
+  @media (max-width: 767px) {
+    font-size: 28px;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 22px;
+  }
+
+  @media (max-width: 400px) {
+    font-size: 20px;
+  }
+}
